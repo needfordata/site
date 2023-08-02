@@ -1,0 +1,572 @@
+ErrorDocument 403 /page6235734.html
+ErrorDocument 404 /page6235734.html
+
+DirectoryIndex page28505979.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://needfordata\.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.needfordata.ru [NC]
+RewriteRule ^(.*)$ https://needfordata\.ru/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^corporate-powerbi-thanks$ page1250060.html [NC]
+RewriteRule ^corporate-powerbi-thanks/$ page1250060.html [NC]
+
+RewriteRule ^11-webinar-vcg$ page164878.html [NC]
+RewriteRule ^11-webinar-vcg/$ page164878.html [NC]
+
+RewriteRule ^black-friday$ page23018059.html [NC]
+RewriteRule ^black-friday/$ page23018059.html [NC]
+
+RewriteRule ^corporate-powerbi_old_20190708$ page1224620.html [NC]
+RewriteRule ^corporate-powerbi_old_20190708/$ page1224620.html [NC]
+
+RewriteRule ^excel_old$ page5968632.html [NC]
+RewriteRule ^excel_old/$ page5968632.html [NC]
+
+RewriteRule ^pbi_old_20190708$ page4630601.html [NC]
+RewriteRule ^pbi_old_20190708/$ page4630601.html [NC]
+
+RewriteRule ^pbi-lite-pay_old$ page3082368.html [NC]
+RewriteRule ^pbi-lite-pay_old/$ page3082368.html [NC]
+
+RewriteRule ^pbi$ page28516538.html [NC]
+RewriteRule ^pbi/$ page28516538.html [NC]
+
+RewriteRule ^pbi-old$ page1753872.html [NC]
+RewriteRule ^pbi-old/$ page1753872.html [NC]
+
+RewriteRule ^pbi-pay_old$ page1789074.html [NC]
+RewriteRule ^pbi-pay_old/$ page1789074.html [NC]
+
+RewriteRule ^excel_old_20190708$ page558754.html [NC]
+RewriteRule ^excel_old_20190708/$ page558754.html [NC]
+
+RewriteRule ^excel_for_internet_marketing$ page28520161.html [NC]
+RewriteRule ^excel_for_internet_marketing/$ page28520161.html [NC]
+
+RewriteRule ^pbi-premium-pay_old$ page3082510.html [NC]
+RewriteRule ^pbi-premium-pay_old/$ page3082510.html [NC]
+
+RewriteRule ^error_old_20190708$ page1394872.html [NC]
+RewriteRule ^error_old_20190708/$ page1394872.html [NC]
+
+RewriteRule ^excel$ page26872765.html [NC]
+RewriteRule ^excel/$ page26872765.html [NC]
+
+RewriteRule ^excel-pay_old$ page1960709.html [NC]
+RewriteRule ^excel-pay_old/$ page1960709.html [NC]
+
+RewriteRule ^error$ page6235734.html [NC]
+RewriteRule ^error/$ page6235734.html [NC]
+
+RewriteRule ^r$ page28521332.html [NC]
+RewriteRule ^r/$ page28521332.html [NC]
+
+RewriteRule ^old_20190708$ page1333192.html [NC]
+RewriteRule ^old_20190708/$ page1333192.html [NC]
+
+RewriteRule ^r2modul-pay_old$ page14650392.html [NC]
+RewriteRule ^r2modul-pay_old/$ page14650392.html [NC]
+
+RewriteRule ^corporate-powerbi$ page6235434.html [NC]
+RewriteRule ^corporate-powerbi/$ page6235434.html [NC]
+
+RewriteRule ^r-pay_old$ page3886855.html [NC]
+RewriteRule ^r-pay_old/$ page3886855.html [NC]
+
+RewriteRule ^reviews$ page28825239.html [NC]
+RewriteRule ^reviews/$ page28825239.html [NC]
+
+RewriteRule ^header$ page61936.html [NC]
+RewriteRule ^header/$ page61936.html [NC]
+
+RewriteRule ^new_year_pbi_excel1$ page475520.html [NC]
+RewriteRule ^new_year_pbi_excel1/$ page475520.html [NC]
+
+RewriteRule ^recomendations$ page62596.html [NC]
+RewriteRule ^recomendations/$ page62596.html [NC]
+
+RewriteRule ^upravlencheskie_resheniya$ page66701.html [NC]
+RewriteRule ^upravlencheskie_resheniya/$ page66701.html [NC]
+
+RewriteRule ^contacts$ page28825341.html [NC]
+RewriteRule ^contacts/$ page28825341.html [NC]
+
+RewriteRule ^10-guide10tips$ page117123.html [NC]
+RewriteRule ^10-guide10tips/$ page117123.html [NC]
+
+RewriteRule ^12-macgeek$ page167952.html [NC]
+RewriteRule ^12-macgeek/$ page167952.html [NC]
+
+RewriteRule ^about1$ page298007.html [NC]
+RewriteRule ^about1/$ page298007.html [NC]
+
+RewriteRule ^visualize$ page684589.html [NC]
+RewriteRule ^visualize/$ page684589.html [NC]
+
+RewriteRule ^04-proexcellingwithpowerquery1$ page71763.html [NC]
+RewriteRule ^04-proexcellingwithpowerquery1/$ page71763.html [NC]
+
+RewriteRule ^blog$ page12694555.html [NC]
+RewriteRule ^blog/$ page12694555.html [NC]
+
+RewriteRule ^excel/first_lesson_trial$ page295737.html [NC]
+RewriteRule ^excel/first_lesson_trial/$ page295737.html [NC]
+
+RewriteRule ^05-proexcellingwithpowerquery$ page86148.html [NC]
+RewriteRule ^05-proexcellingwithpowerquery/$ page86148.html [NC]
+
+RewriteRule ^manual_power_bi$ page1084604.html [NC]
+RewriteRule ^manual_power_bi/$ page1084604.html [NC]
+
+RewriteRule ^excel/lesson1_interface$ page295998.html [NC]
+RewriteRule ^excel/lesson1_interface/$ page295998.html [NC]
+
+RewriteRule ^events$ page1380208.html [NC]
+RewriteRule ^events/$ page1380208.html [NC]
+
+RewriteRule ^06-proexcelling$ page86157.html [NC]
+RewriteRule ^06-proexcelling/$ page86157.html [NC]
+
+RewriteRule ^powerbi-guide-for-students$ page2836297.html [NC]
+RewriteRule ^powerbi-guide-for-students/$ page2836297.html [NC]
+
+RewriteRule ^popupsubscribers$ page322316.html [NC]
+RewriteRule ^popupsubscribers/$ page322316.html [NC]
+
+RewriteRule ^subscribe-subscription1$ page1190166.html [NC]
+RewriteRule ^subscribe-subscription1/$ page1190166.html [NC]
+
+RewriteRule ^dax-webinars$ page6264940.html [NC]
+RewriteRule ^dax-webinars/$ page6264940.html [NC]
+
+RewriteRule ^subscribe$ page1189962.html [NC]
+RewriteRule ^subscribe/$ page1189962.html [NC]
+
+RewriteRule ^webinar-advanced-metrics$ page586877.html [NC]
+RewriteRule ^webinar-advanced-metrics/$ page586877.html [NC]
+
+RewriteRule ^thanks-for-subscription$ page6476895.html [NC]
+RewriteRule ^thanks-for-subscription/$ page6476895.html [NC]
+
+RewriteRule ^webinar_power_bi_in_digital_marketing$ page646342.html [NC]
+RewriteRule ^webinar_power_bi_in_digital_marketing/$ page646342.html [NC]
+
+RewriteRule ^07-excelonline$ page93642.html [NC]
+RewriteRule ^07-excelonline/$ page93642.html [NC]
+
+RewriteRule ^corp-education$ page94521.html [NC]
+RewriteRule ^corp-education/$ page94521.html [NC]
+
+RewriteRule ^technicalpage$ page13910110.html [NC]
+RewriteRule ^technicalpage/$ page13910110.html [NC]
+
+RewriteRule ^offer-paid$ page14676525.html [NC]
+RewriteRule ^offer-paid/$ page14676525.html [NC]
+
+RewriteRule ^powerbi-internet-marketing-2018-old$ page2069637.html [NC]
+RewriteRule ^powerbi-internet-marketing-2018-old/$ page2069637.html [NC]
+
+RewriteRule ^blogoldredirect$ page2202690.html [NC]
+RewriteRule ^blogoldredirect/$ page2202690.html [NC]
+
+RewriteRule ^powerbi-back-to-school$ page1504362.html [NC]
+RewriteRule ^powerbi-back-to-school/$ page1504362.html [NC]
+
+RewriteRule ^powerbi-offline1$ page1305770.html [NC]
+RewriteRule ^powerbi-offline1/$ page1305770.html [NC]
+
+RewriteRule ^oldteam$ page3039977.html [NC]
+RewriteRule ^oldteam/$ page3039977.html [NC]
+
+RewriteRule ^09-powerbionline1$ page133692.html [NC]
+RewriteRule ^09-powerbionline1/$ page133692.html [NC]
+
+RewriteRule ^powerbi-back-to-school-pay$ page1582528.html [NC]
+RewriteRule ^powerbi-back-to-school-pay/$ page1582528.html [NC]
+
+RewriteRule ^master-klass-powerbi-marketing-040917_1$ page1457680.html [NC]
+RewriteRule ^master-klass-powerbi-marketing-040917_1/$ page1457680.html [NC]
+
+RewriteRule ^10-guide10tips-subscription$ page137596.html [NC]
+RewriteRule ^10-guide10tips-subscription/$ page137596.html [NC]
+
+RewriteRule ^oldr$ page3758460.html [NC]
+RewriteRule ^oldr/$ page3758460.html [NC]
+
+RewriteRule ^webinar-cohort-powerbi$ page4734907.html [NC]
+RewriteRule ^webinar-cohort-powerbi/$ page4734907.html [NC]
+
+RewriteRule ^07-excelonline-thanks$ page139814.html [NC]
+RewriteRule ^07-excelonline-thanks/$ page139814.html [NC]
+
+RewriteRule ^black-friday1$ page1938927.html [NC]
+RewriteRule ^black-friday1/$ page1938927.html [NC]
+
+RewriteRule ^webinar-pay$ page23105058.html [NC]
+RewriteRule ^webinar-pay/$ page23105058.html [NC]
+
+RewriteRule ^excel-powerbi-internet-marketing-2018$ page2043964.html [NC]
+RewriteRule ^excel-powerbi-internet-marketing-2018/$ page2043964.html [NC]
+
+RewriteRule ^00-thanks$ page150654.html [NC]
+RewriteRule ^00-thanks/$ page150654.html [NC]
+
+RewriteRule ^11-webinar-vcg-thanks$ page165086.html [NC]
+RewriteRule ^11-webinar-vcg-thanks/$ page165086.html [NC]
+
+RewriteRule ^pbi-pay-thanks$ page2365923.html [NC]
+RewriteRule ^pbi-pay-thanks/$ page2365923.html [NC]
+
+RewriteRule ^comeback20201125$ page15511393.html [NC]
+RewriteRule ^comeback20201125/$ page15511393.html [NC]
+
+RewriteRule ^1$ page13480255.html [NC]
+RewriteRule ^1/$ page13480255.html [NC]
+
+RewriteRule ^excel-pay-blackfriday$ page23040768.html [NC]
+RewriteRule ^excel-pay-blackfriday/$ page23040768.html [NC]
+
+RewriteRule ^all-aboutpbi$ page13892778.html [NC]
+RewriteRule ^all-aboutpbi/$ page13892778.html [NC]
+
+RewriteRule ^pbi-pay-old$ page23104801.html [NC]
+RewriteRule ^pbi-pay-old/$ page23104801.html [NC]
+
+RewriteRule ^pbi-pay-blackfriday$ page23039719.html [NC]
+RewriteRule ^pbi-pay-blackfriday/$ page23039719.html [NC]
+
+RewriteRule ^r-pay-blackfriday$ page23041012.html [NC]
+RewriteRule ^r-pay-blackfriday/$ page23041012.html [NC]
+
+RewriteRule ^webinar-pay-blackfriday$ page23063122.html [NC]
+RewriteRule ^webinar-pay-blackfriday/$ page23063122.html [NC]
+
+RewriteRule ^club$ page23687642.html [NC]
+RewriteRule ^club/$ page23687642.html [NC]
+
+RewriteRule ^sub_test$ page23705727.html [NC]
+RewriteRule ^sub_test/$ page23705727.html [NC]
+
+RewriteRule ^nfdclub_first_payment$ page23747101.html [NC]
+RewriteRule ^nfdclub_first_payment/$ page23747101.html [NC]
+
+RewriteRule ^nfdclub_renewal_payment$ page23747132.html [NC]
+RewriteRule ^nfdclub_renewal_payment/$ page23747132.html [NC]
+
+RewriteRule ^09-powerbionline-thanks$ page258902.html [NC]
+RewriteRule ^09-powerbionline-thanks/$ page258902.html [NC]
+
+RewriteRule ^consulting$ page3019770.html [NC]
+RewriteRule ^consulting/$ page3019770.html [NC]
+
+RewriteRule ^subscribers$ page282860.html [NC]
+RewriteRule ^subscribers/$ page282860.html [NC]
+
+RewriteRule ^black-friday-2018$ page4126668.html [NC]
+RewriteRule ^black-friday-2018/$ page4126668.html [NC]
+
+RewriteRule ^new-year-pay$ page4129161.html [NC]
+RewriteRule ^new-year-pay/$ page4129161.html [NC]
+
+RewriteRule ^new-year-single-pay$ page4129529.html [NC]
+RewriteRule ^new-year-single-pay/$ page4129529.html [NC]
+
+RewriteRule ^new-year-all-pay$ page4129579.html [NC]
+RewriteRule ^new-year-all-pay/$ page4129579.html [NC]
+
+RewriteRule ^new-year-2019$ page4390990.html [NC]
+RewriteRule ^new-year-2019/$ page4390990.html [NC]
+
+RewriteRule ^18-emailmarketing-thanks$ page347349.html [NC]
+RewriteRule ^18-emailmarketing-thanks/$ page347349.html [NC]
+
+RewriteRule ^20-emailmarketingbase-thanks$ page365036.html [NC]
+RewriteRule ^20-emailmarketingbase-thanks/$ page365036.html [NC]
+
+RewriteRule ^subscribersemailmarketingbase$ page366898.html [NC]
+RewriteRule ^subscribersemailmarketingbase/$ page366898.html [NC]
+
+RewriteRule ^thanks$ page401714.html [NC]
+RewriteRule ^thanks/$ page401714.html [NC]
+
+RewriteRule ^user-agreement$ page1180556.html [NC]
+RewriteRule ^user-agreement/$ page1180556.html [NC]
+
+RewriteRule ^privacy-policy$ page1180788.html [NC]
+RewriteRule ^privacy-policy/$ page1180788.html [NC]
+
+RewriteRule ^footer$ page1195440.html [NC]
+RewriteRule ^footer/$ page1195440.html [NC]
+
+RewriteRule ^corporate1$ page1204454.html [NC]
+RewriteRule ^corporate1/$ page1204454.html [NC]
+
+RewriteRule ^powerbi-offline-thanks$ page1323912.html [NC]
+RewriteRule ^powerbi-offline-thanks/$ page1323912.html [NC]
+
+RewriteRule ^manual_power_bi-subscription$ page1342278.html [NC]
+RewriteRule ^manual_power_bi-subscription/$ page1342278.html [NC]
+
+RewriteRule ^master-klass-powerbi-040917-thanks$ page1459118.html [NC]
+RewriteRule ^master-klass-powerbi-040917-thanks/$ page1459118.html [NC]
+
+RewriteRule ^111$ page1568588.html [NC]
+RewriteRule ^111/$ page1568588.html [NC]
+
+RewriteRule ^test$ page1627080.html [NC]
+RewriteRule ^test/$ page1627080.html [NC]
+
+RewriteRule ^oferta$ page1883431.html [NC]
+RewriteRule ^oferta/$ page1883431.html [NC]
+
+RewriteRule ^blog/o-chem-etot-blog$ page12041473.html [NC]
+RewriteRule ^blog/o-chem-etot-blog/$ page12041473.html [NC]
+
+RewriteRule ^blog/10-prostyh-sovetov-kak-sdelat-diagrammy-excel-prevoshodnymi$ page12041695.html [NC]
+RewriteRule ^blog/10-prostyh-sovetov-kak-sdelat-diagrammy-excel-prevoshodnymi/$ page12041695.html [NC]
+
+RewriteRule ^blog/kak-optimizirovat-rutinnuyu-rabotu-v-kontekstnoj-reklame$ page12382765.html [NC]
+RewriteRule ^blog/kak-optimizirovat-rutinnuyu-rabotu-v-kontekstnoj-reklame/$ page12382765.html [NC]
+
+RewriteRule ^blog/rabota-s-semanticheskim-yadrom-tekstovye-funktsii$ page12535815.html [NC]
+RewriteRule ^blog/rabota-s-semanticheskim-yadrom-tekstovye-funktsii/$ page12535815.html [NC]
+
+RewriteRule ^blog/rfm-analiz-v-excel-i-power-bi$ page12537979.html [NC]
+RewriteRule ^blog/rfm-analiz-v-excel-i-power-bi/$ page12537979.html [NC]
+
+RewriteRule ^blog/8p$ page12549533.html [NC]
+RewriteRule ^blog/8p/$ page12549533.html [NC]
+
+RewriteRule ^blog/hackfordata-1$ page12550711.html [NC]
+RewriteRule ^blog/hackfordata-1/$ page12550711.html [NC]
+
+RewriteRule ^blog/rasshirennyj-filtr-excel-alternativa-regulyarnym-vyrazheniyam-2$ page12552014.html [NC]
+RewriteRule ^blog/rasshirennyj-filtr-excel-alternativa-regulyarnym-vyrazheniyam-2/$ page12552014.html [NC]
+
+RewriteRule ^blog/polnotsennyj-excel-na-mac-pravila-vyzhivaniya$ page12553996.html [NC]
+RewriteRule ^blog/polnotsennyj-excel-na-mac-pravila-vyzhivaniya/$ page12553996.html [NC]
+
+RewriteRule ^blog/dvadtsat-printsipov-optimalnogo-sozdaniya-elektronnyh-tablits$ page12554566.html [NC]
+RewriteRule ^blog/dvadtsat-printsipov-optimalnogo-sozdaniya-elektronnyh-tablits/$ page12554566.html [NC]
+
+RewriteRule ^hackfordata-2-vtoroj-bi-hakaton-ot-needfordata$ page12555746.html [NC]
+RewriteRule ^hackfordata-2-vtoroj-bi-hakaton-ot-needfordata/$ page12555746.html [NC]
+
+RewriteRule ^blog/rabota-s-datami-v-excel-ustranenie-tipovyh-oshibok$ page12556068.html [NC]
+RewriteRule ^blog/rabota-s-datami-v-excel-ustranenie-tipovyh-oshibok/$ page12556068.html [NC]
+
+RewriteRule ^blog/hackfordata-3$ page12575209.html [NC]
+RewriteRule ^blog/hackfordata-3/$ page12575209.html [NC]
+
+RewriteRule ^blog/hackfordata-3-komanda-zanyavshaya-iii-mesto-team-z$ page12575790.html [NC]
+RewriteRule ^blog/hackfordata-3-komanda-zanyavshaya-iii-mesto-team-z/$ page12575790.html [NC]
+
+RewriteRule ^blog/hackfordata-3-komanda-zanyavshaya-ii-mesto-ita_jedicats-i-ita-kamin$ page12576142.html [NC]
+RewriteRule ^blog/hackfordata-3-komanda-zanyavshaya-ii-mesto-ita_jedicats-i-ita-kamin/$ page12576142.html [NC]
+
+RewriteRule ^blog/hackfordata-3-komanda-pobeditel-super-magic-data$ page12576774.html [NC]
+RewriteRule ^blog/hackfordata-3-komanda-pobeditel-super-magic-data/$ page12576774.html [NC]
+
+RewriteRule ^blog/konkurs-ot-gruppy-power-bi-i-excel-v-internet-marketinge$ page12578004.html [NC]
+RewriteRule ^blog/konkurs-ot-gruppy-power-bi-i-excel-v-internet-marketinge/$ page12578004.html [NC]
+
+RewriteRule ^blog/imenovannye-diapazony-excel-s-avtomaticheskoj-podstrojkoj$ page12578059.html [NC]
+RewriteRule ^blog/imenovannye-diapazony-excel-s-avtomaticheskoj-podstrojkoj/$ page12578059.html [NC]
+
+RewriteRule ^blog/kak-ssylatsya-na-otdelnuyu-yachejku-tablitsy-v-power-query$ page12578589.html [NC]
+RewriteRule ^blog/kak-ssylatsya-na-otdelnuyu-yachejku-tablitsy-v-power-query/$ page12578589.html [NC]
+
+RewriteRule ^blog/rabota-s-mezhdunarodnoj-datoj-i-chislovymi-formatami-v-power-query$ page12580051.html [NC]
+RewriteRule ^blog/rabota-s-mezhdunarodnoj-datoj-i-chislovymi-formatami-v-power-query/$ page12580051.html [NC]
+
+RewriteRule ^blog/otchyoty-o-rassylkah-iz-unisender-v-power-bi-chast-1$ page12580582.html [NC]
+RewriteRule ^blog/otchyoty-o-rassylkah-iz-unisender-v-power-bi-chast-1/$ page12580582.html [NC]
+
+RewriteRule ^blog/otchyoty-o-rassylkah-iz-unisender-v-power-bi-chast-2$ page12581733.html [NC]
+RewriteRule ^blog/otchyoty-o-rassylkah-iz-unisender-v-power-bi-chast-2/$ page12581733.html [NC]
+
+RewriteRule ^blog/vyvod-spravki-po-funktsiyam-power-query$ page12583616.html [NC]
+RewriteRule ^blog/vyvod-spravki-po-funktsiyam-power-query/$ page12583616.html [NC]
+
+RewriteRule ^blog/budget_by_calendar$ page12601850.html [NC]
+RewriteRule ^blog/budget_by_calendar/$ page12601850.html [NC]
+
+RewriteRule ^blog/generatsiya-koda-json-v-power-bi-i-power-query$ page12602096.html [NC]
+RewriteRule ^blog/generatsiya-koda-json-v-power-bi-i-power-query/$ page12602096.html [NC]
+
+RewriteRule ^blog/obrabotka-oshibki-not-found-funktsiej-web-contents-v-power-query-i-power-bi$ page12602487.html [NC]
+RewriteRule ^blog/obrabotka-oshibki-not-found-funktsiej-web-contents-v-power-query-i-power-bi/$ page12602487.html [NC]
+
+RewriteRule ^blog/operator-let-v-power-bi-i-power-query$ page12602771.html [NC]
+RewriteRule ^blog/operator-let-v-power-bi-i-power-query/$ page12602771.html [NC]
+
+RewriteRule ^blog/tonkosti-raboty-so-stolbtsami-v-power-query$ page12603136.html [NC]
+RewriteRule ^blog/tonkosti-raboty-so-stolbtsami-v-power-query/$ page12603136.html [NC]
+
+RewriteRule ^blog/function-invokeafter--power-query$ page12603687.html [NC]
+RewriteRule ^blog/function-invokeafter--power-query/$ page12603687.html [NC]
+
+RewriteRule ^blog/manipulyacii-s-dobavlennymi-ili-udalennymi-stolbcami-v-power-query$ page12603847.html [NC]
+RewriteRule ^blog/manipulyacii-s-dobavlennymi-ili-udalennymi-stolbcami-v-power-query/$ page12603847.html [NC]
+
+RewriteRule ^master-klass-powerbi-05082017$ page12604137.html [NC]
+RewriteRule ^master-klass-powerbi-05082017/$ page12604137.html [NC]
+
+RewriteRule ^blog/expression-evaluate-in-power-querym$ page12623623.html [NC]
+RewriteRule ^blog/expression-evaluate-in-power-querym/$ page12623623.html [NC]
+
+RewriteRule ^blog/shablon-bi-sistemy-s-reitingom-studentov$ page12623726.html [NC]
+RewriteRule ^blog/shablon-bi-sistemy-s-reitingom-studentov/$ page12623726.html [NC]
+
+RewriteRule ^blog/plakat-visualizacii$ page12623793.html [NC]
+RewriteRule ^blog/plakat-visualizacii/$ page12623793.html [NC]
+
+RewriteRule ^blog/using-the-relativepath-and-query-options-with-web-contents-in-power-query$ page12623846.html [NC]
+RewriteRule ^blog/using-the-relativepath-and-query-options-with-web-contents-in-power-query/$ page12623846.html [NC]
+
+RewriteRule ^blog/parametr-allow-data-preview-to-download-in-the-background-v-power-query$ page12623934.html [NC]
+RewriteRule ^blog/parametr-allow-data-preview-to-download-in-the-background-v-power-query/$ page12623934.html [NC]
+
+RewriteRule ^blog/caching-and-excludedfromcachekey-option-in-power-bi-and-power-query$ page12623976.html [NC]
+RewriteRule ^blog/caching-and-excludedfromcachekey-option-in-power-bi-and-power-query/$ page12623976.html [NC]
+
+RewriteRule ^blog/exporting-power-query-m-queries-to-odc-get-transform$ page12626009.html [NC]
+RewriteRule ^blog/exporting-power-query-m-queries-to-odc-get-transform/$ page12626009.html [NC]
+
+RewriteRule ^blog/data-privacy-settings-pbi-pq-part-1$ page12631093.html [NC]
+RewriteRule ^blog/data-privacy-settings-pbi-pq-part-1/$ page12631093.html [NC]
+
+RewriteRule ^blog/data-privacy-settings-pbi-pq-part-2$ page12631473.html [NC]
+RewriteRule ^blog/data-privacy-settings-pbi-pq-part-2/$ page12631473.html [NC]
+
+RewriteRule ^blog/https-needfordata-ru-blog-data-privacy-settings-pbi-pq-part-3$ page12631582.html [NC]
+RewriteRule ^blog/https-needfordata-ru-blog-data-privacy-settings-pbi-pq-part-3/$ page12631582.html [NC]
+
+RewriteRule ^blog/data-privacy-settings-pbi-pq-part-4$ page12631797.html [NC]
+RewriteRule ^blog/data-privacy-settings-pbi-pq-part-4/$ page12631797.html [NC]
+
+RewriteRule ^blog/itogi-hakatona-hackfordata-4$ page12631899.html [NC]
+RewriteRule ^blog/itogi-hakatona-hackfordata-4/$ page12631899.html [NC]
+
+RewriteRule ^blog/data-privacy-settings-pbi-pq-part-5$ page12632290.html [NC]
+RewriteRule ^blog/data-privacy-settings-pbi-pq-part-5/$ page12632290.html [NC]
+
+RewriteRule ^blog/text-betweendelimiters$ page12632523.html [NC]
+RewriteRule ^blog/text-betweendelimiters/$ page12632523.html [NC]
+
+RewriteRule ^blog/exporting-queries-copy-paste$ page12632626.html [NC]
+RewriteRule ^blog/exporting-queries-copy-paste/$ page12632626.html [NC]
+
+RewriteRule ^blog/the-list-m-functions-and-the-equationcriteria-argument$ page12632695.html [NC]
+RewriteRule ^blog/the-list-m-functions-and-the-equationcriteria-argument/$ page12632695.html [NC]
+
+RewriteRule ^blog/rassrochka-nfd$ page12632945.html [NC]
+RewriteRule ^blog/rassrochka-nfd/$ page12632945.html [NC]
+
+RewriteRule ^poluchenie_dannih_iz_google_analytics_pqgoogleanalytics_mez_version$ page13477859.html [NC]
+RewriteRule ^poluchenie_dannih_iz_google_analytics_pqgoogleanalytics_mez_version/$ page13477859.html [NC]
+
+RewriteRule ^killerdatetableruupdate20200901$ page13621061.html [NC]
+RewriteRule ^killerdatetableruupdate20200901/$ page13621061.html [NC]
+
+RewriteRule ^blog/category/power-query$ page13898374.html [NC]
+RewriteRule ^blog/category/power-query/$ page13898374.html [NC]
+
+RewriteRule ^example$ page14212684.html [NC]
+RewriteRule ^example/$ page14212684.html [NC]
+
+RewriteRule ^example2$ page14221968.html [NC]
+RewriteRule ^example2/$ page14221968.html [NC]
+
+RewriteRule ^markdowntest$ page16408565.html [NC]
+RewriteRule ^markdowntest/$ page16408565.html [NC]
+
+RewriteRule ^pbi-new$ https://needfordata\.ru/pbi [R=301,NC]
+
+RewriteRule ^emailmarketingsystem$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^08-ppcagensies$ https://needfordata\.ru/pbi [R=301,NC]
+
+RewriteRule ^visualize-subscription$ https://needfordata\.ru/visualize [R=301,NC]
+
+RewriteRule ^privacypolicy$ https://needfordata\.ru/privacy-policy [R=301,NC]
+
+RewriteRule ^corporate$ https://needfordata\.ru/corporate-powerbi [R=301,NC]
+
+RewriteRule ^18-emailmarketing$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^needfordata.ru$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^happy-2018$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^1$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^page1200428.html$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^page328844.html$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^page312571.html$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^02-hackathon-power-bi-facebook$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^hackfordata_2$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^page330902.html$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^thx_visualize$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^page228240.html$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^17-webinar-googlesheets$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^20-emailmarketingbase$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^pbi-old$ https://needfordata\.ru/pbi [R=301,NC]
+
+RewriteRule ^master-klass-powerbi-marketing-040917$ https://needfordata\.ru/pbi [R=301,NC]
+
+RewriteRule ^powerbi-offline$ https://needfordata\.ru/pbi [R=301,NC]
+
+RewriteRule ^team$ https://needfordata\.ru/contacts [R=301,NC]
+
+RewriteRule ^powerbi-internet-marketing-2018$ https://needfordata\.ru/pbi [R=301,NC]
+
+RewriteRule ^main$ https://needfordata\.ru/ [R=301,NC]
+
+RewriteRule ^new_year_pbi_excel$ https://needfordata\.ru/pbi [R=301,NC]
+
+RewriteRule ^04-proexcellingwithpowerquery$ https://needfordata\.ru/pbi [R=301,NC]
+
+RewriteRule ^09-powerbionline$ https://needfordata\.ru/pbi [R=301,NC]
+
+RewriteRule ^master-klass-powerbi-marketing-040917$ https://needfordata\.ru/pbi [R=301,NC]
+
+RewriteRule ^blog/rasshirennyj-filtr-excel-velikolepnaya-alternativa-regulyarnym-vyrazheniyam-2$ https://needfordata\.ru/blog/rasshirennyj-filtr-excel-alternativa-regulyarnym-vyrazheniyam-2 [R=301,NC]
+
+RewriteRule ^blog/using-the-relativepath-and-query-options-with-web-contents-in-power-query-and-power-bi-m-code$ https://needfordata\.ru/blog/using-the-relativepath-and-query-options-with-web-contents-in-power-query [R=301,NC]
+
+RewriteRule ^blog/obrabotka-oshibki-404-not-found-funktsiej-web-contents-v-power-query-i-power-bi$ https://needfordata\.ru/blog/obrabotka-oshibki-not-found-funktsiej-web-contents-v-power-query-i-power-bi [R=301,NC]
+
+RewriteRule ^blog/--function-invokeafter--power-query$ https://needfordata\.ru/blog/function-invokeafter--power-query [R=301,NC]
+
+RewriteRule ^blog/otchyoty-o-rassylkah-iz-unisender-v-power-bi-chast-1-opisanie-otcheta-i-poluchenie-dannyh-iz-unisender$ https://needfordata\.ru/blog/otchyoty-o-rassylkah-iz-unisender-v-power-bi-chast-1 [R=301,NC]
+
+RewriteRule ^blog/-allow-data-preview-to-download-in-the-background--power-query--power-bi$ https://needfordata\.ru/blog/parametr-allow-data-preview-to-download-in-the-background-v-power-query [R=301,NC]
+
+RewriteRule ^blog/-bi----$ https://needfordata\.ru/blog/shablon-bi-sistemy-s-reitingom-studentov [R=301,NC]
+
+RewriteRule ^blog/D188D0B0D0B1D0BBD0BED0BD-bi-D181D0B8D181D182D0B5D0BCD18B-D181-D180D0B5D0B9D182D0B8D0BDD0B3D0BED0BC-D181D182D183D0B4D0B5D0BDD182D0BED0B2$ https://needfordata\.ru/blog/shablon-bi-sistemy-s-reitingom-studentov [R=301,NC]
+
+RewriteRule ^subscribe-subscription$ https://needfordata\.ru/thanks-for-subscription [R=301,NC]
+
+RewriteRule ^about$ https://needfordata\.ru/contacts [R=301,NC]
+
+
